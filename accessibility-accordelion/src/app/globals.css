@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  outline: none;
+}
+
+.accordion-header:focus {
+  outline: 2px solid #005fcc;
+  background: #e7e7e7;
+}
+
+.accordion-panel {
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
